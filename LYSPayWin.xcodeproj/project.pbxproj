@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		483E46051EB432CE00B5F886 /* LYSPaywayListItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E46041EB432CE00B5F886 /* LYSPaywayListItemCell.m */; };
+		483E46081EB4346000B5F886 /* UIColor+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E46071EB4346000B5F886 /* UIColor+image.m */; };
+		483E460B1EB43ABE00B5F886 /* NSString+autoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E460A1EB43ABE00B5F886 /* NSString+autoSize.m */; };
+		483E460E1EB449C700B5F886 /* LYSPaywayListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E460D1EB449C700B5F886 /* LYSPaywayListItem.m */; };
+		483E46101EB44E8700B5F886 /* LYSPayIcon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 483E460F1EB44E8700B5F886 /* LYSPayIcon.bundle */; };
+		48A62C781EB2D10100E213E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A62C771EB2D10100E213E0 /* main.m */; };
+		48A62C7B1EB2D10100E213E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A62C7A1EB2D10100E213E0 /* AppDelegate.m */; };
+		48A62C7E1EB2D10100E213E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A62C7D1EB2D10100E213E0 /* ViewController.m */; };
+		48A62C811EB2D10100E213E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A62C7F1EB2D10100E213E0 /* Main.storyboard */; };
+		48A62C831EB2D10100E213E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A62C821EB2D10100E213E0 /* Assets.xcassets */; };
+		48A62C861EB2D10100E213E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A62C841EB2D10100E213E0 /* LaunchScreen.storyboard */; };
+		48A62C931EB2D12B00E213E0 /* LYSPayWin.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A62C921EB2D12B00E213E0 /* LYSPayWin.m */; };
+		48A62C951EB2D1C000E213E0 /* LYSPayWin.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48A62C941EB2D1C000E213E0 /* LYSPayWin.bundle */; };
+		48A62C9A1EB2D29A00E213E0 /* LYSLoadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A62C971EB2D29A00E213E0 /* LYSLoadButton.m */; };
+		48A62C9B1EB2D29A00E213E0 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A62C991EB2D29A00E213E0 /* MMMaterialDesignSpinner.m */; };
+		48A62C9E1EB2D45E00E213E0 /* LYSPayDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A62C9D1EB2D45E00E213E0 /* LYSPayDetailCell.m */; };
+		48A62CA11EB2D4AD00E213E0 /* LYSPayWayListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A62CA01EB2D4AD00E213E0 /* LYSPayWayListCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		483E46031EB432CE00B5F886 /* LYSPaywayListItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSPaywayListItemCell.h; sourceTree = "<group>"; };
+		483E46041EB432CE00B5F886 /* LYSPaywayListItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSPaywayListItemCell.m; sourceTree = "<group>"; };
+		483E46061EB4346000B5F886 /* UIColor+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+image.h"; sourceTree = "<group>"; };
+		483E46071EB4346000B5F886 /* UIColor+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+image.m"; sourceTree = "<group>"; };
+		483E46091EB43ABE00B5F886 /* NSString+autoSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+autoSize.h"; sourceTree = "<group>"; };
+		483E460A1EB43ABE00B5F886 /* NSString+autoSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+autoSize.m"; sourceTree = "<group>"; };
+		483E460C1EB449C700B5F886 /* LYSPaywayListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSPaywayListItem.h; sourceTree = "<group>"; };
+		483E460D1EB449C700B5F886 /* LYSPaywayListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSPaywayListItem.m; sourceTree = "<group>"; };
+		483E460F1EB44E8700B5F886 /* LYSPayIcon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LYSPayIcon.bundle; sourceTree = "<group>"; };
+		48A62C731EB2D10100E213E0 /* LYSPayWin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSPayWin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A62C771EB2D10100E213E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48A62C791EB2D10100E213E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48A62C7A1EB2D10100E213E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48A62C7C1EB2D10100E213E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48A62C7D1EB2D10100E213E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48A62C801EB2D10100E213E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48A62C821EB2D10100E213E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48A62C851EB2D10100E213E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48A62C871EB2D10100E213E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A62C911EB2D12B00E213E0 /* LYSPayWin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSPayWin.h; sourceTree = "<group>"; };
+		48A62C921EB2D12B00E213E0 /* LYSPayWin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSPayWin.m; sourceTree = "<group>"; };
+		48A62C941EB2D1C000E213E0 /* LYSPayWin.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LYSPayWin.bundle; sourceTree = "<group>"; };
+		48A62C961EB2D29A00E213E0 /* LYSLoadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSLoadButton.h; sourceTree = "<group>"; };
+		48A62C971EB2D29A00E213E0 /* LYSLoadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSLoadButton.m; sourceTree = "<group>"; };
+		48A62C981EB2D29A00E213E0 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		48A62C991EB2D29A00E213E0 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		48A62C9C1EB2D45E00E213E0 /* LYSPayDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSPayDetailCell.h; sourceTree = "<group>"; };
+		48A62C9D1EB2D45E00E213E0 /* LYSPayDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSPayDetailCell.m; sourceTree = "<group>"; };
+		48A62C9F1EB2D4AD00E213E0 /* LYSPayWayListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSPayWayListCell.h; sourceTree = "<group>"; };
+		48A62CA01EB2D4AD00E213E0 /* LYSPayWayListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSPayWayListCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48A62C701EB2D10100E213E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48A62C6A1EB2D10100E213E0 = {
+			isa = PBXGroup;
+			children = (
+				48A62C751EB2D10100E213E0 /* LYSPayWin */,
+				48A62C741EB2D10100E213E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48A62C741EB2D10100E213E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48A62C731EB2D10100E213E0 /* LYSPayWin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48A62C751EB2D10100E213E0 /* LYSPayWin */ = {
+			isa = PBXGroup;
+			children = (
+				48A62C901EB2D12B00E213E0 /* LYSPayWin */,
+				48A62C791EB2D10100E213E0 /* AppDelegate.h */,
+				48A62C7A1EB2D10100E213E0 /* AppDelegate.m */,
+				48A62C7C1EB2D10100E213E0 /* ViewController.h */,
+				48A62C7D1EB2D10100E213E0 /* ViewController.m */,
+				48A62C7F1EB2D10100E213E0 /* Main.storyboard */,
+				48A62C821EB2D10100E213E0 /* Assets.xcassets */,
+				48A62C841EB2D10100E213E0 /* LaunchScreen.storyboard */,
+				48A62C871EB2D10100E213E0 /* Info.plist */,
+				48A62C761EB2D10100E213E0 /* Supporting Files */,
+			);
+			path = LYSPayWin;
+			sourceTree = "<group>";
+		};
+		48A62C761EB2D10100E213E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48A62C771EB2D10100E213E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48A62C901EB2D12B00E213E0 /* LYSPayWin */ = {
+			isa = PBXGroup;
+			children = (
+				48A62C961EB2D29A00E213E0 /* LYSLoadButton.h */,
+				48A62C971EB2D29A00E213E0 /* LYSLoadButton.m */,
+				48A62C981EB2D29A00E213E0 /* MMMaterialDesignSpinner.h */,
+				48A62C991EB2D29A00E213E0 /* MMMaterialDesignSpinner.m */,
+				48A62C911EB2D12B00E213E0 /* LYSPayWin.h */,
+				48A62C921EB2D12B00E213E0 /* LYSPayWin.m */,
+				48A62C941EB2D1C000E213E0 /* LYSPayWin.bundle */,
+				48A62C9C1EB2D45E00E213E0 /* LYSPayDetailCell.h */,
+				48A62C9D1EB2D45E00E213E0 /* LYSPayDetailCell.m */,
+				48A62C9F1EB2D4AD00E213E0 /* LYSPayWayListCell.h */,
+				48A62CA01EB2D4AD00E213E0 /* LYSPayWayListCell.m */,
+				483E46031EB432CE00B5F886 /* LYSPaywayListItemCell.h */,
+				483E46041EB432CE00B5F886 /* LYSPaywayListItemCell.m */,
+				483E46061EB4346000B5F886 /* UIColor+image.h */,
+				483E46071EB4346000B5F886 /* UIColor+image.m */,
+				483E46091EB43ABE00B5F886 /* NSString+autoSize.h */,
+				483E460A1EB43ABE00B5F886 /* NSString+autoSize.m */,
+				483E460C1EB449C700B5F886 /* LYSPaywayListItem.h */,
+				483E460D1EB449C700B5F886 /* LYSPaywayListItem.m */,
+				483E460F1EB44E8700B5F886 /* LYSPayIcon.bundle */,
+			);
+			path = LYSPayWin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48A62C721EB2D10100E213E0 /* LYSPayWin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A62C8A1EB2D10100E213E0 /* Build configuration list for PBXNativeTarget "LYSPayWin" */;
+			buildPhases = (
+				48A62C6F1EB2D10100E213E0 /* Sources */,
+				48A62C701EB2D10100E213E0 /* Frameworks */,
+				48A62C711EB2D10100E213E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYSPayWin;
+			productName = LYSPayWin;
+			productReference = 48A62C731EB2D10100E213E0 /* LYSPayWin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48A62C6B1EB2D10100E213E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Goldcard;
+				TargetAttributes = {
+					48A62C721EB2D10100E213E0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4CX6972XTR;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 48A62C6E1EB2D10100E213E0 /* Build configuration list for PBXProject "LYSPayWin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48A62C6A1EB2D10100E213E0;
+			productRefGroup = 48A62C741EB2D10100E213E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48A62C721EB2D10100E213E0 /* LYSPayWin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48A62C711EB2D10100E213E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A62C951EB2D1C000E213E0 /* LYSPayWin.bundle in Resources */,
+				48A62C861EB2D10100E213E0 /* LaunchScreen.storyboard in Resources */,
+				483E46101EB44E8700B5F886 /* LYSPayIcon.bundle in Resources */,
+				48A62C831EB2D10100E213E0 /* Assets.xcassets in Resources */,
+				48A62C811EB2D10100E213E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48A62C6F1EB2D10100E213E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483E460E1EB449C700B5F886 /* LYSPaywayListItem.m in Sources */,
+				483E46051EB432CE00B5F886 /* LYSPaywayListItemCell.m in Sources */,
+				48A62C7E1EB2D10100E213E0 /* ViewController.m in Sources */,
+				48A62C7B1EB2D10100E213E0 /* AppDelegate.m in Sources */,
+				483E460B1EB43ABE00B5F886 /* NSString+autoSize.m in Sources */,
+				483E46081EB4346000B5F886 /* UIColor+image.m in Sources */,
+				48A62C9A1EB2D29A00E213E0 /* LYSLoadButton.m in Sources */,
+				48A62C931EB2D12B00E213E0 /* LYSPayWin.m in Sources */,
+				48A62C9B1EB2D29A00E213E0 /* MMMaterialDesignSpinner.m in Sources */,
+				48A62CA11EB2D4AD00E213E0 /* LYSPayWayListCell.m in Sources */,
+				48A62C9E1EB2D45E00E213E0 /* LYSPayDetailCell.m in Sources */,
+				48A62C781EB2D10100E213E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48A62C7F1EB2D10100E213E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48A62C801EB2D10100E213E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48A62C841EB2D10100E213E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48A62C851EB2D10100E213E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48A62C881EB2D10100E213E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48A62C891EB2D10100E213E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48A62C8B1EB2D10100E213E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4CX6972XTR;
+				INFOPLIST_FILE = LYSPayWin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huasco.GisHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "01cb652f-90b6-4321-ab99-eed656b1701e";
+				PROVISIONING_PROFILE_SPECIFIER = "gis-helper-dev";
+			};
+			name = Debug;
+		};
+		48A62C8C1EB2D10100E213E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4CX6972XTR;
+				INFOPLIST_FILE = LYSPayWin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huasco.GisHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "01cb652f-90b6-4321-ab99-eed656b1701e";
+				PROVISIONING_PROFILE_SPECIFIER = "gis-helper-dev";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48A62C6E1EB2D10100E213E0 /* Build configuration list for PBXProject "LYSPayWin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A62C881EB2D10100E213E0 /* Debug */,
+				48A62C891EB2D10100E213E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A62C8A1EB2D10100E213E0 /* Build configuration list for PBXNativeTarget "LYSPayWin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A62C8B1EB2D10100E213E0 /* Debug */,
+				48A62C8C1EB2D10100E213E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48A62C6B1EB2D10100E213E0 /* Project object */;
+}
