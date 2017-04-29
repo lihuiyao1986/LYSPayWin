@@ -12,6 +12,7 @@
 		483E460B1EB43ABE00B5F886 /* NSString+autoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E460A1EB43ABE00B5F886 /* NSString+autoSize.m */; };
 		483E460E1EB449C700B5F886 /* LYSPaywayListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E460D1EB449C700B5F886 /* LYSPaywayListItem.m */; };
 		483E46101EB44E8700B5F886 /* LYSPayIcon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 483E460F1EB44E8700B5F886 /* LYSPayIcon.bundle */; };
+		483E46131EB4E3D300B5F886 /* UIView+empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 483E46121EB4E3D300B5F886 /* UIView+empty.m */; };
 		48A62C781EB2D10100E213E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A62C771EB2D10100E213E0 /* main.m */; };
 		48A62C7B1EB2D10100E213E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A62C7A1EB2D10100E213E0 /* AppDelegate.m */; };
 		48A62C7E1EB2D10100E213E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A62C7D1EB2D10100E213E0 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 		483E460C1EB449C700B5F886 /* LYSPaywayListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSPaywayListItem.h; sourceTree = "<group>"; };
 		483E460D1EB449C700B5F886 /* LYSPaywayListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSPaywayListItem.m; sourceTree = "<group>"; };
 		483E460F1EB44E8700B5F886 /* LYSPayIcon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LYSPayIcon.bundle; sourceTree = "<group>"; };
+		483E46111EB4E3D300B5F886 /* UIView+empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+empty.h"; sourceTree = "<group>"; };
+		483E46121EB4E3D300B5F886 /* UIView+empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+empty.m"; sourceTree = "<group>"; };
 		48A62C731EB2D10100E213E0 /* LYSPayWin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSPayWin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A62C771EB2D10100E213E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48A62C791EB2D10100E213E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 		48A62C901EB2D12B00E213E0 /* LYSPayWin */ = {
 			isa = PBXGroup;
 			children = (
+				483E46111EB4E3D300B5F886 /* UIView+empty.h */,
+				483E46121EB4E3D300B5F886 /* UIView+empty.m */,
 				48A62C961EB2D29A00E213E0 /* LYSLoadButton.h */,
 				48A62C971EB2D29A00E213E0 /* LYSLoadButton.m */,
 				48A62C981EB2D29A00E213E0 /* MMMaterialDesignSpinner.h */,
@@ -221,6 +226,7 @@
 				48A62C9A1EB2D29A00E213E0 /* LYSLoadButton.m in Sources */,
 				48A62C931EB2D12B00E213E0 /* LYSPayWin.m in Sources */,
 				48A62C9B1EB2D29A00E213E0 /* MMMaterialDesignSpinner.m in Sources */,
+				483E46131EB4E3D300B5F886 /* UIView+empty.m in Sources */,
 				48A62CA11EB2D4AD00E213E0 /* LYSPayWayListCell.m in Sources */,
 				48A62C9E1EB2D45E00E213E0 /* LYSPayDetailCell.m in Sources */,
 				48A62C781EB2D10100E213E0 /* main.m in Sources */,

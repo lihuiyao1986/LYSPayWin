@@ -8,6 +8,7 @@
 
 #import "LYSPayWayListCell.h"
 #import "LYSPaywayListItemCell.h"
+#import "UIView+empty.h"
 
 
 @interface LYSPayWayListCell ()<UITableViewDelegate,UITableViewDataSource>
@@ -90,6 +91,11 @@
 -(void)setItems:(NSArray<LYSPaywayListItem *> *)items{
     _items = items;
     [self.listView reloadData];
+    if (self.items.count <=0) {
+        [self.listView addEmptyView:@{@"imageUrl":@"LYSPayWin.bundle/no_pay",@"title":@"暂无可用的支付方式"}];
+    }else{
+        [self.listView removeEmptyView];
+    }
 }
 
 #pragma mark - 返回按钮
